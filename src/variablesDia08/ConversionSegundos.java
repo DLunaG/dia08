@@ -15,14 +15,12 @@ public class ConversionSegundos {
         int min = 0;
         int seg = 0;
 
-        if (calc >= 3600){
+
             horas = calc/3600;
             calc = calc % 3600;
-        }
-        if (calc >= 60){
             min = calc/60;
             seg = calc % 60;
-        }
+
 
         System.out.println(input + " segundos son: " + horas + " horas, "+ min +" minutos y " + seg + " segundos.");
 

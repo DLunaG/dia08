@@ -19,7 +19,7 @@ public class NumeroAlVerres {
             System.out.print(numero[i]);
         }
         //registrando los numeros en el orden numero[2], numero[1], numero[0] (al revés de como les he asignado los nº en
-        //el ejercicio, da la opción de iterar con el for de manera normal (int i = 0, i > numero.length; i++){...
+        //el ejercicio, da la opción de iterar con el for de manera normal (int i = 0, i < numero.length; i++){...
 
 
     }
